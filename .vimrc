@@ -42,6 +42,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'ekalinin/Dockerfile.vim'
 
+Plug 'dyng/ctrlsf.vim'
+Plug 'voldikss/vim-browser-search'
+Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 
 Plug 'SirVer/ultisnips', {'for': ['sh', 'python', 'markdown']}
@@ -77,6 +80,7 @@ nmap <silent> gr <Plug>(coc-references)
 let mapleader = ","
 
 nnoremap <leader>s :prettier <cr> :w!<cr>
+
 nnoremap <leader>q :q<cr>
 nnoremap <leader>w :w<cr>
 nnoremap <leader>f :Files<cr>
